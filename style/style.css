@@ -1,0 +1,218 @@
+body {
+	margin:0;
+	padding:0;
+}
+
+#all-container,#aall-container {
+	margin: 10% 30%;
+	padding: 0px;
+	border: 2px solid #ccc;
+	width:500px;
+	overflow: hidden;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+}
+
+#aall-container {
+	width: 800px;
+	margin: 10%;
+}
+
+#top h1 {
+	font-size: 12pt;
+	font-family: Georgia,Tahoma;
+	margin:5px 20%;
+	padding:0;
+	color: #eee;
+}
+#top {
+	display: block;
+	background-color: #222;
+	margin:10px 10px 5px;
+	padding:2px;
+	border-radius: 8px 8px 3px 3px;
+	-moz-border-radius: 8px 8px 3px 3px;
+}
+
+#header {
+	margin:0;
+	padding:0px 10px;
+	background-color: #FFA500;
+}
+
+ul#header-list {
+	background-color: #FFA500;
+	display:block;
+	list-style:none;
+	padding:0px 0px;
+	margin:0;
+}
+ul#header-list li {
+	display:inline;
+	float: left;
+	margin: 0px 2px;
+	font-size: 8pt;
+	padding: 1px 6px;
+	border: 0px;
+}
+ul#header-list li:hover {
+	border-right: 1px solid #bbb;
+	border-left: 1px solid #bbb;
+	padding: 1px 5px;
+	background-color: #efefef;
+	color: #FFA500;
+}
+ul#header-list li.active {
+	border-right: 1px solid #bbb;
+	border-left: 1px solid #bbb;
+	padding: 1px 3px;
+	background-color: #efefef;
+	color: #FFA500;
+}
+
+ul#header-list li a{
+	text-decoration: none;
+	color: #1010ef;
+	font-family: Verdana, 'sans-serif';
+}
+ul#header-list li:hover a {
+	color: #FFA500;
+}
+
+#content,#logincontent, #admincontent {
+	display: block;
+	margin: 25px 0px 10px;
+	padding: 15px 10px;
+	border-top: 1px solid #ccc;
+	overflow: hidden;
+}
+#logincontent {
+	padding: 20px 70px;
+}
+
+#admincontent {
+	padding:0;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+#admincontent p{
+	margin:5px 30px;
+	padding:5px;
+}
+
+#admincontent h2{
+	padding-top: 10px;
+}
+
+#logincontent label{
+	display: block;
+	font-family: Tahoma;
+	margin: 0px 10px 5px 0px;
+	padding: 2px;
+}
+
+#admincontent table, #content table {
+	border-collapse:inherit;
+	width:90%;
+	margin: 0 5%;
+}
+
+#admincontent table td, #content table td, #theuser table td {
+	padding: 5px 8px;
+	font-family: arial, 'sans-serif';
+	font-size: 10pt;
+	margin:10px 5px;
+}
+#admincontent table tr, #content table tr {margin:0;}
+#admincontent table tr:hover td, #content table tr:hover td {background-color: #ddd;}
+
+td.first {
+	background-color: #ccc;
+	font-weight: bold;
+}
+
+tr td label {font-size: 8pt;}
+
+input.bt {
+	margin: 10px 10px 5px 5px;
+	padding: 3px 10px;
+	color: #231112;
+	font-family: Georgia, Cambria, serif;
+	vertical-align: middle;
+	text-decoration:none;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background: -moz-linear-gradient(top, #dfdfff, #fefefe);
+	background: linear-gradient(top, #dfdfff, #fefefe);
+	background: -webkit-linear-gradient(top, #dfdfff, #fefefe);
+}
+
+#admincontent #newusers {
+	float: left;
+	display: inline;
+	clear:none;
+}
+
+#admincontent #newusers ul{
+	list-style-type: none;
+	padding-left: 30px;
+}
+
+#admincontent #newusers ul li {
+	padding: 1px 0px 2px 0px;
+}
+#admincontent #newusers ul li:hover {
+	padding: 1px 0px 1px 0px;
+	border-bottom: 1px dashed #323334;
+
+}
+#admincontent #newusers ul li.on {
+	background-color: #ccc;
+}
+
+#admincontent #newusers ul li a {
+	width:100%;
+	margin: 0;
+	padding:0;
+	text-decoration: none;
+	font-size: 12pt;
+	font-family: cambria, serif;
+	color:#343536;
+	text-decoration: none;
+}
+
+#admincontent #newusers ul li a:hover, a:visited {
+		color:#000;
+}
+
+#admincontent form {
+	margin: 10px 20px;
+}
+
+#admincontent #theuser {
+	display: inline;
+	float: right;
+	clear: none;
+	margin: 0 100px 0 10px;
+	border-left: 1px solid #ccc;
+	overflow: show;
+}
+
+h2 {margin: 0px; Font-family: Tahoma,arial, 'sans-serif'; padding: 0px 40px;
+	font-size: 14pt;
+}
+#content p{ 
+	font-family: 'Trebuchet MS', Verdana, 'sans-serif';
+	font-size: 10pt;
+	padding: 10px 40px;
+	margin: 0px;
+}
+#content p a,#content p a:hover { text-decoration: none;}
+#content p.copyright,#admincontent p.copyright {padding: 0px 150px;}
+
+ul#err {
+	color: #fe1111; 
+	font-size: 8pt;
+	list-style-type: katakana;
+}

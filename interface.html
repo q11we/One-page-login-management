@@ -1,0 +1,171 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<head>
+<title>User Login</title>
+<link rel="stylesheet" href="interface.css" />
+<script src="interface.js">
+</script>
+</head>
+<body>
+<div id="all-container">
+	<div id="top">
+		<h1>Simple Login Management System</h1>
+	</div>
+	<div id="header">
+		<ul id="header-list">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Edit/Update My info</a></li>
+			<li><a href="#">My account</a></li>
+			<li style="float:right;"><a href="#">Logout</a></li>
+		</ul>
+	</div>
+	<div id="content">
+		<table>
+			<!--<tr><th>Key</th><th></th></tr>-->
+			<tr><td class="first">Username:</td><td>iCilim</td></tr>
+			<tr><td class="first">First name:</td><td>Issiz</td></tr>
+			<tr><td class="first">Last Name:</td><td>Cilimkes</td></tr>
+			<tr><td class="first">Email:</td><td>issiz.cilimkes@yahoo.com</td></tr>
+			<tr><td class="first">Phone number:</td><td>1-8000-toll free</td></tr>
+			<tr><td class="first">Website:</td><td><a>www.issizcilimkes.mime</a></td></tr>
+		</table>
+	</div>
+</div>
+<div id="all-container">
+	<div id="top">
+		<h1>Simple Login Management System</h1>
+	</div>
+	<div id="header">
+		<ul id="header-list">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Edit/Update My info</a></li>
+			<li><a href="#">My account</a></li>
+			<li style="float:right;"><a href="#">Logout</a></li>
+		</ul>
+	</div>
+	<div id="content">
+	  <form action="#" method="post" name="edit-update">
+		<table>
+			<tr><th></th><th></th><th></th></tr>
+			<tr><td class="first">Username:</td>
+				<td><input type="text" name="uname" value="iCilim"/></td></tr>
+			<tr><td class="first">First name:</td>
+				<td><input type="text" name="fname" value="Issiz"/></td></tr>
+			<tr><td class="first">Last Name:</td>
+				<td><input type="text" name="lname" value="Cilimkes"/></td></tr>
+			<tr><td class="first">Email:</td>
+				<td><input type="text" name="email" /></td></tr>
+			<tr><td class="first">Phone number(optional):</td>
+				<td><input type="text" name="phone"></td></tr>
+			<tr><td class="first">Website:</td>
+				<td><input type="text" name="website" /></td></tr>
+			<tr><td class="first" rowspan="3">Update Password:</td>
+			<td><label for="oldpassword">Old password:</label><br />
+				<input type="password" name="oldpassword" /></td></tr>
+			<tr><td><label for="newpassword">New password:</label><br/>
+			<input type="password" name="newpassword" /></td></tr>
+			<tr><td><label for="oldpassword">Again new password:</label>
+			<input type="password" name="newpassword2" /></td></tr>
+			<tr><td class=""><input class="bt"type="submit" value="Update" 
+			name="submit" /></td>
+				<td><input class="bt" type="reset" value="Clear" name="clear" />
+					<input class="bt" type="button" value="cancel" name="cancel" 
+				onclick=""/></td></tr>
+		</table>
+	  </form>
+	</div>
+</div>
+<div id="all-container">
+	<div id="top">
+		<h1>Simple Login Management System</h1>
+	</div>
+	<div id="header">
+		<ul id="header-list">
+			<li><a href="#">Home</a></li>
+			<li style="float:right;"><a href="#">Register</a></li>
+		</ul>
+	</div>
+	<div id="logincontent">
+	  <form action="#" method="post" name="userlogin">
+		<label for="loginusername">Username:
+			<input type="text" name="loginusername" value=""/></label>
+		<label for="loginpassword">Password:&nbsp;
+			<input type="password" name="loginpassword" value=""/></label>
+			<input class="bt" type="submit" 
+					value="Sign in" name="signin" />
+				<input class="bt" type="reset" value="Clear" name="clear" />
+	  </form>
+	</div>
+</div>
+<div id="aall-container">
+	<div id="top">
+		<h1>Simple Login Management System</h1>
+	</div>
+	<div id="header">
+		<ul id="header-list">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Edit/Update My info</a></li>
+			<li><a href="#">My account</a></li>
+			<li><a href="#">All users</a></li>
+			<li style="float:right;"><a href="#">Logout</a></li>
+		</ul>
+	</div>
+	<div id="admincontent">
+	  <div id="newusers">
+			<ul>
+				<li class="on"><a href="?newuser=09231">Chenger Naysen</a></li>
+				<li><a href="?newuser=78123">Sende kimsen</a></li>
+				<li><a href="?newuser=12345">Meesi nelson</a></li>
+				<li><a href="?newuser=54241">I wanna know your name</a></li>
+			</ul>
+	  </div>
+	  <div id="theuser">
+		<form name="userapproval" action="#" method="post">
+			<table>
+			<tr><th></th><th></th><th></th></tr>
+			<tr><td class="first">Username:</td>
+				<td>Nay12chen</td></tr>
+			<tr><td class="first">First name:</td>
+				<td>Chenger</td></tr>
+			<tr><td class="first">Last Name:</td>
+				<td>Naysen</td></tr>
+			<tr><td class="first">Email:</td>
+				<td>issiz.cilimkes@yahoo.com</td></tr>
+			<tr><td class="first">Phone number(optional):</td>
+				<td>1-800-toll-free</td></tr>
+			<tr><td class="first">Website:</td>
+				<td>www.issizcilimkes.mime</td></tr>
+			
+			<tr><td class=""><input class="bt" type="submit" value="Approve"
+			name="approve" /></td>
+			<td class=""><input class="bt" type="submit" value="Reject"
+			name="rejected" /></td>
+			</tr>
+			</table>
+		</form>
+	  </div>
+	</div>
+</div>
+
+<div id="all-container">
+	<div id="top">
+		<h1>Simple Login Management System</h1>
+	</div>
+	<div id="header">
+		<ul id="header-list">
+			<li><a href="#">Login</a></li>
+			<li style="float:left;"><a href="#">Register</a></li>
+		</ul>
+	</div>
+	<div id="content">
+	  <h2>Wilkommen Usar</h2>
+	  <p>This is a simple (very simple) login management system.
+		contact me at <a href="mailto:issizcilimkes@yahoo.com">
+		issizcilimkes@yahoo.com</a> for source code or any questions.
+		<span style="color:red;">Please do spam. :) </span>If you're a user
+		login, or if you want to register, you can register too.
+		Feel free to use the service.</p>
+		<p class="copyright">copyright &copy; I&amp;G 2012</p>
+	</div>
+</div>
+</body>
